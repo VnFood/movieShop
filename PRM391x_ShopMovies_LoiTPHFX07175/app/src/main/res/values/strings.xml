@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies Shop</string>
+
+    <string name="facebook_app_id">132971635434943</string>
+    <string name="fb_login_protocol_scheme">fb132971635434943</string>
+    <string name="server_client_id">424417420265-h4ok9lhv9iif2nq2cagc0cqg55r04rfl.apps.googleusercontent.com</string>
+
+
+    <string name="title_demo">Title Demo</string>
+    <string name="content_demo">Content Demo</string>
+
+    <string name="movie_picture">Movie Picture</string>
+    
+    <string name="movies">Movies</string>
+    <string name="profile">Profile</string>
+
+    <string name="log_out">Log out</string>
+</resources>

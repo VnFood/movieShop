@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d_100"
+    android:background="@color/purple_500"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/d_100"
+        android:layout_height="@dimen/d_100"
+        android:onClick="openMovieActivity">
+        <ImageView
+            android:id="@+id/imgIconMovie"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_60"
+            android:src="@drawable/movie_icon"
+            android:padding="@dimen/d_5"/>
+        <TextView
+            android:id="@+id/textIconMovie"
+            android:layout_below="@+id/imgIconMovie"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_40"
+            android:textColor="@color/white"
+            android:text="@string/movies"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/d_100"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/d_100"
+        android:layout_height="@dimen/d_100"
+        android:onClick="openProfileActivity">
+        <ImageView
+            android:id="@+id/imgIconProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_60"
+            android:src="@drawable/profile_icon"
+            android:padding="@dimen/d_5"/>
+        <TextView
+            android:id="@+id/textIconProfile"
+            android:layout_below="@+id/imgIconProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_40"
+            android:textColor="@color/white"
+            android:text="@string/profile"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+</LinearLayout>
